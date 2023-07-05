@@ -1,5 +1,35 @@
 # @pandacss/generator
 
+## 0.5.2
+
+### Patch Changes
+
+- cd912f35: Fix `definePattern` module overriden type, was missing an `extends` constraint which lead to a type error:
+
+  ```
+  styled-system/types/global.d.ts:14:58 - error TS2344: Type 'T' does not satisfy the constraint 'PatternProperties'.
+
+  14   export function definePattern<T>(config: PatternConfig<T>): PatternConfig
+                                                              ~
+
+    styled-system/types/global.d.ts:14:33
+      14   export function definePattern<T>(config: PatternConfig<T>): PatternConfig
+                                         ~
+      This type parameter might need an `extends PatternProperties` constraint.
+
+  ```
+
+- dc4e80f7: Export `isCssProperty` helper function from styled-system/jsx
+- b50675ca: Refactor parser to support extracting css prop in JSX elements correctly.
+- Updated dependencies [12c900ee]
+- Updated dependencies [b50675ca]
+  - @pandacss/core@0.5.2
+  - @pandacss/token-dictionary@0.5.2
+  - @pandacss/is-valid-prop@0.5.2
+  - @pandacss/logger@0.5.2
+  - @pandacss/shared@0.5.2
+  - @pandacss/types@0.5.2
+
 ## 0.5.1
 
 ### Patch Changes

@@ -1,5 +1,18 @@
 # @pandacss/studio
 
+## 0.5.2
+
+### Patch Changes
+
+- 239fe41a: Fix token-analyzer page when no unknown tokens find in a project
+- Updated dependencies [032c152a]
+  - @pandacss/node@0.5.2
+  - @pandacss/config@0.5.2
+  - @pandacss/token-dictionary@0.5.2
+  - @pandacss/logger@0.5.2
+  - @pandacss/shared@0.5.2
+  - @pandacss/types@0.5.2
+
 ## 0.5.1
 
 ### Patch Changes

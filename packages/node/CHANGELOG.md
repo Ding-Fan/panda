@@ -1,5 +1,27 @@
 # @pandacss/node
 
+## 0.5.2
+
+### Patch Changes
+
+- 032c152a: Fix issue where `panda cssgen --outfile` doesn't extract files to chunks before bundling them into the css
+  out file
+- Updated dependencies [cd912f35]
+- Updated dependencies [dc4e80f7]
+- Updated dependencies [12c900ee]
+- Updated dependencies [b50675ca]
+  - @pandacss/generator@0.5.2
+  - @pandacss/core@0.5.2
+  - @pandacss/parser@0.5.2
+  - @pandacss/config@0.5.2
+  - @pandacss/token-dictionary@0.5.2
+  - @pandacss/error@0.5.2
+  - @pandacss/extractor@0.5.2
+  - @pandacss/is-valid-prop@0.5.2
+  - @pandacss/logger@0.5.2
+  - @pandacss/shared@0.5.2
+  - @pandacss/types@0.5.2
+
 ## 0.5.1
 
 ### Patch Changes

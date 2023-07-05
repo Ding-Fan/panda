@@ -1,5 +1,17 @@
 # @pandacss/preset-base
 
+## 0.5.2
+
+### Patch Changes
+
+- 97fbe63f: Add negative fraction values to `translateX` and `translateY` utilities
+- 08d33e0f: - Fix issue where `gridRows` has the wrong `className`
+
+  - Fix issue where `gridItem` pattern did not use the `colStart` and `rowStart` values
+
+- f7aff8eb: Fix issue where \_even and \_odd map to incorrect selectors
+  - @pandacss/types@0.5.2
+
 ## 0.5.1
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @pandacss/token-dictionary
 
+## 0.5.2
+
+### Patch Changes
+
+- @pandacss/shared@0.5.2
+- @pandacss/types@0.5.2
+
 ## 0.5.1
 
 ### Patch Changes
